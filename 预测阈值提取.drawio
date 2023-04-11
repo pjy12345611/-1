@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T10:59:09.943Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62" version="21.1.5" etag="ceOQhzUZj2Kg0NpczWzh" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-11T11:28:32.413Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62" etag="3SfYNcfhbgQOYaU5YCrr" version="21.1.5" type="github">
   <diagram name="第 1 页" id="DH-bmWrZ9IpwTEcxW6wE">
-    <mxGraphModel>
+    <mxGraphModel dx="1505" dy="903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pN8M6uotu0ehwa2ufUJM-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pN8M6uotu0ehwa2ufUJM-1" target="pN8M6uotu0ehwa2ufUJM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pN8M6uotu0ehwa2ufUJM-1" value="候选池人群" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pN8M6uotu0ehwa2ufUJM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pN8M6uotu0ehwa2ufUJM-3" target="pN8M6uotu0ehwa2ufUJM-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pN8M6uotu0ehwa2ufUJM-3" value="模型预测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pN8M6uotu0ehwa2ufUJM-4" value="按0.05间隔，回测每个区间人群实际转化率" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="256" y="300" width="316" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pN8M6uotu0ehwa2ufUJM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pN8M6uotu0ehwa2ufUJM-5" target="pN8M6uotu0ehwa2ufUJM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pN8M6uotu0ehwa2ufUJM-5" value="输出人群预测为1的概率&lt;br&gt;（概率为0~1，一般算法逻辑取0.5为正负分界阈值）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="269" y="200" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pN8M6uotu0ehwa2ufUJM-9" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="40.35" width="78.02" height="325.96" as="geometry" />
+        </mxCell>
+        <mxCell id="pN8M6uotu0ehwa2ufUJM-10" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="180.08" y="40.35" width="78.02" height="325.96" as="geometry" />
+        </mxCell>
+        <mxCell id="pN8M6uotu0ehwa2ufUJM-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413" y="350" as="sourcePoint" />
+            <mxPoint x="413" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pN8M6uotu0ehwa2ufUJM-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pN8M6uotu0ehwa2ufUJM-12" target="pN8M6uotu0ehwa2ufUJM-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pN8M6uotu0ehwa2ufUJM-12" value="上述回测流程按多个不同时间周期同时回测分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="430" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pN8M6uotu0ehwa2ufUJM-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pN8M6uotu0ehwa2ufUJM-13" target="pN8M6uotu0ehwa2ufUJM-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pN8M6uotu0ehwa2ufUJM-13" value="找出较稳定且满足业务需求转化率的阈值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="510" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pN8M6uotu0ehwa2ufUJM-15" value="输出算法人群阈值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="309" y="590" width="212" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
