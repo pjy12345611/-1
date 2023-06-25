@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-25T07:18:58.892Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="MvSVlEwYbn6T2mKHG8Za" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-25T07:26:52.533Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="17ASvT3SFAdwbGFhfKLq" version="21.5.0" type="github">
   <diagram name="第 1 页" id="FgbeuhmCxTpXGzqwo7Mq">
-    <mxGraphModel dx="1985" dy="1175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1985" dy="1175" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,19 +14,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SDIlasXmzMNW4l37rZuf-73" value="数据清洗&amp;amp;统计聚合" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="1011.5" y="339.56999999999994" width="164" height="50" as="geometry" />
+          <mxGeometry x="1003.5" y="321.99999999999994" width="164" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="SDIlasXmzMNW4l37rZuf-74" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;埋点Android&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="SDIlasXmzMNW4l37rZuf-74" value="设备" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="957.5" y="177.56999999999994" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SDIlasXmzMNW4l37rZuf-75" value="埋点H5" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="SDIlasXmzMNW4l37rZuf-75" value="积分商城等" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="1283.5" y="177.56999999999994" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SDIlasXmzMNW4l37rZuf-76" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;埋点IOS&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="SDIlasXmzMNW4l37rZuf-76" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;互联网平台&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="1123.5" y="177.56999999999994" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="SDIlasXmzMNW4l37rZuf-77" value="&lt;div style=&quot;text-align: left; font-size: 17px;&quot;&gt;&lt;ol style=&quot;font-size: 17px;&quot;&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&amp;nbsp;对一柜通中所涉及的ID利用其天然mapping关系，&lt;/span&gt;&lt;span style=&quot;text-align: left; font-size: 17px;&quot;&gt;关联所需ID&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;text-align: left; font-size: 17px;&quot;&gt;行为埋点按收集设备不同区分三个渠道，解析json拆分不同的设备ID列&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;text-align: left; font-size: 17px;&quot;&gt;ID有效性校验，利用正则或业务上报规则验证ID的有效性，无效ID置空，去除无效数据行&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;text-align: left; font-size: 17px;&quot;&gt;一柜通部分，每天全量统计数据行的最早，最近记录时间&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;text-align: left; font-size: 17px;&quot;&gt;埋点数据部分，每天全量统计数据行的最早，最近记录时间，并对每行记录按出现统计出现次数，去重&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="420" y="280.01" width="572.5" height="193" as="geometry" />
         </mxCell>
         <mxCell id="SDIlasXmzMNW4l37rZuf-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=16;strokeColor=#000000;" edge="1" parent="1" source="SDIlasXmzMNW4l37rZuf-79" target="SDIlasXmzMNW4l37rZuf-105">
           <mxGeometry relative="1" as="geometry" />
@@ -119,7 +116,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SDIlasXmzMNW4l37rZuf-103" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=3;size=20;indent=5;fontFamily=Helvetica;fontSize=16;gradientColor=#ffffff;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="631.13" y="150" width="896" height="277" as="geometry" />
+          <mxGeometry x="624.5" y="106" width="896" height="277" as="geometry" />
         </mxCell>
         <mxCell id="SDIlasXmzMNW4l37rZuf-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="SDIlasXmzMNW4l37rZuf-105" target="SDIlasXmzMNW4l37rZuf-83">
           <mxGeometry relative="1" as="geometry" />
@@ -248,6 +245,15 @@
           <mxGeometry x="1167.5002842916915" y="1791.5941727022753" as="geometry">
             <mxPoint x="-36" y="-147" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="SDIlasXmzMNW4l37rZuf-139" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1119" y="513" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SDIlasXmzMNW4l37rZuf-140" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;这里除设备外全部全量表，一柜通部分关联绝对可信部分不进图计算，埋点设备号不进图计算&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1228" y="325" width="237" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SDIlasXmzMNW4l37rZuf-141" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1089" y="996" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
