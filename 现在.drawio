@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-25T07:26:52.533Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="17ASvT3SFAdwbGFhfKLq" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-25T07:39:37.714Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="2QgRt6KFmQaE9fnC7waQ" version="21.5.0" type="github">
   <diagram name="第 1 页" id="FgbeuhmCxTpXGzqwo7Mq">
     <mxGraphModel dx="1985" dy="1175" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -144,7 +144,7 @@
         <mxCell id="SDIlasXmzMNW4l37rZuf-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="SDIlasXmzMNW4l37rZuf-112" target="SDIlasXmzMNW4l37rZuf-114">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SDIlasXmzMNW4l37rZuf-112" value="T日ID节点&lt;br style=&quot;font-size: 18px;&quot;&gt;边（两两建边），构建图" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=18;strokeWidth=2;fillColor=none;gradientColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="SDIlasXmzMNW4l37rZuf-112" value="T日增量ID节点&lt;br style=&quot;font-size: 18px;&quot;&gt;边（两两建边），构建图" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=18;strokeWidth=2;fillColor=none;gradientColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="952.5" y="1275.07" width="240" height="74.94" as="geometry" />
         </mxCell>
         <mxCell id="SDIlasXmzMNW4l37rZuf-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=16;strokeColor=#000000;" edge="1" parent="1" source="SDIlasXmzMNW4l37rZuf-114" target="SDIlasXmzMNW4l37rZuf-116">
@@ -252,8 +252,38 @@
         <mxCell id="SDIlasXmzMNW4l37rZuf-140" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;这里除设备外全部全量表，一柜通部分关联绝对可信部分不进图计算，埋点设备号不进图计算&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1228" y="325" width="237" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SDIlasXmzMNW4l37rZuf-141" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1089" y="996" width="120" height="60" as="geometry" />
+        <mxCell id="SDIlasXmzMNW4l37rZuf-145" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1299.5" y="693" as="sourcePoint" />
+            <mxPoint x="1443.5" y="648" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SDIlasXmzMNW4l37rZuf-146" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;dashPattern=8 8;fillStyle=hatch;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="877" y="543" width="391" height="391" as="geometry" />
+        </mxCell>
+        <mxCell id="SDIlasXmzMNW4l37rZuf-147" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;过滤5000个节点以上子图，对不同ID类型进行标识区分，增加自定义强弱ID，渠道数据接口，不在图计算阶段过滤（提升速度）&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="639" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SDIlasXmzMNW4l37rZuf-148" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="SDIlasXmzMNW4l37rZuf-99">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1377" y="890" as="sourcePoint" />
+            <mxPoint x="1710" y="1095" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SDIlasXmzMNW4l37rZuf-149" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1119" y="1009" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SDIlasXmzMNW4l37rZuf-150" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;增加不进入图计算部分的ID赋值，纯关联部分在增量计算时依然不进入图计算&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="1068" width="223" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="SDIlasXmzMNW4l37rZuf-153" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1216" y="1720" as="sourcePoint" />
+            <mxPoint x="1580" y="1760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SDIlasXmzMNW4l37rZuf-154" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;增加更改数据后oneid沿用逻辑，不在重跑赋值。增加更改数据源后更新ID接口，不再全量初始化&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1607" y="1742" width="223" height="83" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
